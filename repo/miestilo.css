@@ -1,0 +1,189 @@
+body
+{
+	margin: auto;
+	width: 90%;
+background-image: linear-gradient(to bottom, black 10%, #333333 75%, #666666);
+
+}
+
+
+header {
+    width: 100%;
+   background-image: url('C:/Users/crist/Desktop/clase extra/Mi-primer-repo-main/repo/imagenes/TODO-gym.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */  
+    background-position: center; /* Centra la imagen dentro del header */
+    color: #7ff501; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    font-size: 200%; /* Tamaño del texto */
+    padding-top: 12.02em; /* Espacio superior */
+    padding-bottom: 0.02em; /* Espacio inferior */
+}
+
+h2
+{
+   text-align: center;
+   color: #ffffff;
+   font-family: Times New Roman
+}
+
+h3
+{
+	width: 100%;
+	font-size: 160%;
+	text-align: center;
+   color: #ffffff;
+   font-family: Times New Roman
+}   
+h4
+{
+	width: 100%;
+	font-size: 150%;
+	text-align: center;
+   color: #ffffff;
+   font-family: Times New Roman
+}   
+h5
+{
+	width: 100%;
+	font-size: 150%;
+	text-align: left;
+   color: #fdfdfd;
+   font-family: Times New Roman
+}   
+h6
+{
+	width: 100%;
+	font-size: 100%;
+	text-align: center;
+   color: #ffffff;
+   font-family: georgia
+}   
+
+main {
+	width: 100%;
+	font-size: 101%;	
+	background-image: linear-gradient(to bottom, black 10%, #333333 75%, #666666);	
+	float: right;	
+	color: #000;	
+	font-family: "Times New Roman", serif;
+}
+.fotoproducto {
+	width: 26%;
+	height: 20em;
+	font-size: 120%;
+	background-color: #ffffff;
+	float: right;
+	color: #000000;
+	padding-left: 3em;
+	border-radius: 1em;
+	margin: 0.6em;
+}
+
+
+.fotoproducto img {	
+	border-radius: 0.1em;
+	width: 80%;
+	}
+	
+.fotoubicacion {
+	float: center;
+}
+
+nav
+{ 
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   color: #000000;
+   background-color: #000000;
+   width: 100%;
+   text-align: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   
+   
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+     min-width: 130px;
+	 height: 30px;
+     color: #000000; /* Color del texto para estado normal */
+	padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+	border-radius: 5px;
+	z-index: 0;
+    background: #fff; /* Fondo blanco para estado normal */
+    overflow: hidden;
+	border: 2px solid #32ff23; /* Borde verde */
+  }
+  
+  
+  nav a:hover {
+  color: #000000; /* Color del texto en hover */
+}
+
+  nav a:hover:after {
+  width: 100%; /* Ancho completo en hover */
+  }
+  
+  nav a:after {
+	content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #7ff501; /* Fondo verde en hover */
+  text-decoration: none;
+  }
+
+
+  .form-container {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #55ff00;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4bfa00;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #474747;
+}
+.map-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+iframe {
+	width: 100%;
+	height: 450px;
+	border: 0;
+}
